@@ -1,9 +1,8 @@
-echo '[phases.install]
+[phases.install]
 cmds = ["npm install"]
 
 [phases.build]
 cmds = ["npm run build"]
 
 [start]
-cmd = "node server.js"' > nixpacks.toml
-
+cmd = "node server.js"
